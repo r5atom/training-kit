@@ -13,7 +13,6 @@ install:
   - npm install -g writewell
 
 before_script:
-  - bundle exec jekyll build
   - script/writewell  
 
 script:
