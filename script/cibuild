@@ -31,6 +31,9 @@ echo ""
 cd "$RACK_ROOT"
 script/bootstrap
 
+echo "node: $(node --version)"
+echo "npm: $(npm --version)"
+
 # build the site
 bundle exec jekyll build
 
