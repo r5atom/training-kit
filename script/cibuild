@@ -32,10 +32,10 @@ cd "$RACK_ROOT"
 script/bootstrap
 
 # build the site
-bundle exec jekyll build
+# bundle exec jekyll build
 
 # build whitelist
-script/writewell
+# script/writewell
 
 # run rake tests
 bundle exec rake test
